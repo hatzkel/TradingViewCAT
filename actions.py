@@ -1,14 +1,18 @@
 import ccxt
 import ast
+
+
 def parse_webhook(webhook_data):
+
     """
     This function takes the string from tradingview and turns it into a python dict.
-    :param webhook_data: POST data from tradingview, as a string
+    :param webhook_data: POST data from tradingview, as a string.
     :return: Dictionary version of string.
     """
 
     data = ast.literal_eval(webhook_data)
     return data
+
 
 def calc_price(given_price):
 
@@ -20,8 +24,9 @@ def calc_price(given_price):
     if given_price == None:
         price = given_price
     else:
-        price == given_price
+        price = given_price
     return price
+
 
 def send_order(data):
 
@@ -32,15 +37,15 @@ def send_order(data):
     """
 
     # Replace kraken with your exchange of choice.
-    exchange == ccxt.kraken({
-        # Insert your API key a nd secrets for exchange in question.
+    exchange = ccxt.kraken({
+        # Inset your API key and secrets for exchange in question.
         'apiKey': '',
         'secret': '',
         'enableRateLimit': True,
     })
 
-    # Send the order to the exchange, using the values from TradingView alert.
-    print('Sending:', data['symbol'], data['type'], data['side'], data['amount'], calc_price('data'['price']))
-    order = exchange.create_order(data['symbol'), data['type'], data['side', data['amount'], calc_price(data['price']))
-    # This is the last step, the response from the exchange will tell us if it made it and what errors pop up if not
+    # Send the order to the exchange, using the values from the tradingview alert.
+    print('Sending:', data['symbol'], data['type'], data['side'], data['amount'], calc_price(data['price']))
+    order = exchange.create_order(data['symbol'], data['type'], data['side'], data['amount'], calc_price(data['price']))
+    # This is the last step, the response from the exchange will tell us if it made it and what errors pop up if not.
     print('Exchange Response:', order)
