@@ -29,4 +29,5 @@ this application.
 7. ???
 
 ###
-https://dashboard.ngrok.com/signup 
+Ngrok Signup: https://dashboard.ngrok.com/signup 
+_Ngrok is free and does not require an account to but you will be disconnected every 8 hours so please register._
