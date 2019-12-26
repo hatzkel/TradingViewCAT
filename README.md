@@ -15,8 +15,9 @@ If you have access to the underlying strategies script sometimes you can take th
 
 
 ## Instructions
-You will either need to have firewall settings that allow the webhook to be sent the host or use ngrok.
-Please download ngrok. Otherwise you will have to configure your firewall to allow the webhooks to be received by the host running
+You will either need to have firewall settings that allow the webhook to be sent the host or use ngrok. If you have a VPS this can also
+run on AWS free tier just makesure to have your firewall configured to allow it to receive the TV webhooks. Otherwise please download ngrok.
+You can also run this on your PC but again you will have to configure your router/firewall to allow access.
 this application.
 
 
@@ -27,3 +28,5 @@ this application.
 6. Profit
 7. ???
 
+###
+https://dashboard.ngrok.com/signup 
