@@ -1,3 +1,4 @@
 pycache/
 *.pyc
-\.env\Lib\orig-prefix.txt
+\.env\
+\.vscode
