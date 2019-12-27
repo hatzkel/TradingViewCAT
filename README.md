@@ -42,4 +42,4 @@ Trade on the following exchanges, these have all been tested with ccxt to work:
 * [Binance](https://www.binance.com/en/register?ref=36529978)
 
 The following exchange will soon work but currently only works with a patched version of bybit-exchange/ccxt:[https://github.com/bybit-exchange/ccxt] otherwise it will work with the next commit of ccxt (12-26-19)
-[Bybit](https://www.bybit.com/app/register?ref=DQJx6)
+* [Bybit](https://www.bybit.com/app/register?ref=DQJx6)
