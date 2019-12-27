@@ -37,9 +37,9 @@ _Ngrok is free and does not require an account to but you will be disconnected e
 _You can also spin up a Ubuntu VPS on AWS free tier and run this on that host and send to that http://that.host/webhook, just make sure the firewall is configured correctly._
 
 Trade on the following exchanges, these have all been tested with ccxt to work:
-[Bitmex](https://www.bitmex.com/register/A1VCT6)
-[Deribit](https://www.deribit.com/reg-5839.2819)
-[Binance](https://www.binance.com/en/register?ref=36529978)
+* [Bitmex](https://www.bitmex.com/register/A1VCT6)
+* [Deribit](https://www.deribit.com/reg-5839.2819)
+* [Binance](https://www.binance.com/en/register?ref=36529978)
 
 The following exchange will soon work but currently only works with a patched version of bybit-exchange/ccxt:[https://github.com/bybit-exchange/ccxt] otherwise it will work with the next commit of ccxt (12-26-19)
 [Bybit](https://www.bybit.com/app/register?ref=DQJx6)
