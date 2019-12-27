@@ -28,7 +28,8 @@ this application.
 4. The dependencies required to get started should now be installed. Check by running command pipenv graph - You should see flask and ccxt.
     If you want to install any other dependencies, or if you get an error that you're missing a depedency, simply use command pipenv install <dependency>
     Starting the virtual environment: pipenv shell
-    Starting the flask app: python webhook-bot.py
+5. run python alert.py and input responses to craft your payload to paste into tradingview alert
+6. Start the flask app: python webhook.py
 
 ###
 Ngrok Signup: https://dashboard.ngrok.com/signup 
