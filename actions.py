@@ -37,13 +37,13 @@ def send_order(data):
     """
 
     # Replace kraken with your exchange of choice.
-    exchange = ccxt.kraken({
+    exchange = ccxt.bitmex({
         # Inset your API key and secrets for exchange in question.
-        'apiKey': '',
-        'secret': '',
+        'apiKey': 'JOttqTJ5MsI2yWoZ65OhjEcM',
+        'secret': 'Czk1JG8xzfEKXMd9RoGoeibFHNmoEvZ7k0F6vqwQyLkBrKR-',
         'enableRateLimit': True,
     })
-
+    exchange.urls['api'] = exchange.urls['test']
     # Send the order to the exchange, using the values from the tradingview alert.
     print('Sending:', data['symbol'], data['type'], data['side'], data['amount'], calc_price(data['price']))
     order = exchange.create_order(data['symbol'], data['type'], data['side'], data['amount'], calc_price(data['price']))

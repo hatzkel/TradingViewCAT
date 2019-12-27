@@ -15,10 +15,22 @@ from actions import parse_webhook
 
 
 def post_test():
-    r = requests.post('http://localhost:5000/webhook', data=str({"type": "limit", "side": "buy", "amount": "0.01", "symbol": "BTC/USD", "price": "7000", "key": "99fb2f48c6af4761f904fc85f95eb56190e5d40b1f44ec3a9c1fa319"}))
+    '''
+    <Response[200]> = PASS
+    <Response[405]> = FAIL
+    <Response[500]  = FAIL
+    '''
+
+    r = requests.post('http://localhost:5000/webhook', data=str({"type": "limit", "side": "buy", "amount": "10", "symbol": "BTC/USD", "price": "7000", "key": "99fb2f48c6af4761f904fc85f95eb56190e5d40b1f44ec3a9c1fa319"}))
     print(r)
 
-parse_webhook(str({"type": "limit", "side": "buy", "amount": "0.01", "symbol": "BTC/USD", "price": "7000", "key": "99fb2f48c6af4761f904fc85f95eb56190e5d40b1f44ec3a9c1fa319"}))
+x = parse_webhook(str({"type": "limit", "side": "buy", "amount": "10", "symbol": "BTC/USD", "price": "7000", "key": "99fb2f48c6af4761f904fc85f95eb56190e5d40b1f44ec3a9c1fa319"}))
 
 
-post_test()
+print("Sending POST") 
+print(x)
+
+if post_test() != "200":
+    print("Tests pass")
+else:
+    print("Tests fail")
