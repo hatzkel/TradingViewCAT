@@ -17,7 +17,7 @@ def generate_alert_message():
         print('Enter limit price:')
         price = input()
     else:
-        price = 'None'
+        price = None
     key = get_token()
 
     print("Copy:\n:")
