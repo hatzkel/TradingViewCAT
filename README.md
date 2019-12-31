@@ -10,15 +10,12 @@ to even create complex strategies.
 
 
 ## What TradingviewCAT does not do?
-Now the one thing this will not do is take a TradingView strategy and utilize it as an alert becaues they do not have alerts built in.
-If you have access to the underlying strategies script sometimes you can take the signal used such EMA crossovers and set an alertcondition on the crossover but this is beyond the scope of this application.
+Now the one thing this will not do is take a TradingView strategy and utilize it as an alert because they do not have alerts built in.
+If you have access to the underlying strategies script sometimes you can take the signal used such EMA crossovers and set an alertcondition on the crossover but this is beyond the scope of this README.
 
 
 ## Instructions
-You will either need to have firewall settings that allow the webhook to be sent the host or use ngrok. If you have a VPS this can also
-run on AWS free tier just makesure to have your firewall configured to allow it to receive the TV webhooks. Otherwise please download ngrok.
-You can also run this on your PC but again you will have to configure your router/firewall to allow access.
-this application.
+_You will either need to have firewall settings that allow the webhook to be sent the host or use ngrok. If you have a VPS this can also run on AWS free tier just make sure to have your firewall configured to allow it to receive the TV webhooks. Otherwise please download ngrok. You can also run this on your PC but again, you will have to configure your router/firewall to allow access this application._
 
 
 
@@ -43,3 +40,9 @@ Trade on the following exchanges, these have all been tested with ccxt to work:
 
 The following exchange will soon work but currently only works with a patched version of bybit-exchange/ccxt:[https://github.com/bybit-exchange/ccxt] otherwise it will work with the next commit of ccxt (12-26-19)
 * [Bybit](https://www.bybit.com/app/register?ref=DQJx6)
+
+__Join Hat Crypto on Telegram!__ 
++ https://t.me/hatcrypto
+
+Donations:
+BTC: bc1ql2mch3syhltfegn9n4uszufvaetlrr5j8hnl36

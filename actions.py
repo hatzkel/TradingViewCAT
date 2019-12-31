@@ -43,7 +43,7 @@ def send_order(data):
         'secret': 'Czk1JG8xzfEKXMd9RoGoeibFHNmoEvZ7k0F6vqwQyLkBrKR-',
         'enableRateLimit': True,
     })
-    exchange.urls['api'] = exchange.urls['test']
+    exchange.urls['api'] = exchange.urls['test']  # Comment this out for production.
     # Send the order to the exchange, using the values from the tradingview alert.
     print('Sending:', data['symbol'], data['type'], data['side'], data['amount'], calc_price(data['price']))
     order = exchange.create_order(data['symbol'], data['type'], data['side'], data['amount'], calc_price(data['price']))

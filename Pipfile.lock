@@ -58,11 +58,11 @@
         },
         "ccxt": {
             "hashes": [
-                "sha256:4ee1076504618963bf359d334e384a20082739132d840d0541952f3da3871648",
-                "sha256:fe87c6b9be95bc62da8da2972b1de3693fbea3ab632612e9385a049e733568d5"
+                "sha256:739149ae474786904cdb314d689eda116944f42eee56905252432d73972e2295",
+                "sha256:f0b6a51e31d3d2f252a57790af11e1e0806bed338846579da987f655202cf7a2"
             ],
             "index": "pypi",
-            "version": "==1.21.19"
+            "version": "==1.21.22"
         },
         "certifi": {
             "hashes": [
