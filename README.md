@@ -41,7 +41,7 @@ Trade on the following exchanges, these have all been tested with ccxt to work:
 The following exchange will soon work but currently only works with a patched version of bybit-exchange/ccxt:[https://github.com/bybit-exchange/ccxt] otherwise it will work with the next commit of ccxt (12-26-19)
 * [Bybit](https://www.bybit.com/app/register?ref=DQJx6)
 
-__Join Hat Crypto on Telegram!__ 
+__Join Top Hat Crypto on Telegram!__ 
 + https://t.me/tophatcrypto
 
 Donations:
