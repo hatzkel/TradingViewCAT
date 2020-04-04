@@ -42,7 +42,7 @@ The following exchange will soon work but currently only works with a patched ve
 * [Bybit](https://www.bybit.com/app/register?ref=DQJx6)
 
 __Join Hat Crypto on Telegram!__ 
-+ https://t.me/hatcrypto
++ https://t.me/tophatcrypto
 
 Donations:
 BTC: bc1ql2mch3syhltfegn9n4uszufvaetlrr5j8hnl36
